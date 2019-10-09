@@ -11,6 +11,14 @@ executing exploit.py script or solution.py script.
 The script have some additional libraries like: QR, webbrowser and maybe mechanize and requests(but for these
 two I'm not sure) so without it you will not execute this script. Another thing:
 you can use python below 3.x.x version.
+https://raw.githubusercontent.com/WolfMan12333/ACNR---Task-Quest1-reqruitment/master/mail/2.jpeg
+
+
+
+and last task screen:
+https://raw.githubusercontent.com/WolfMan12333/ACNR---Task-Quest1-reqruitment/master/3.jpeg
 
 Today with first part of challenge you have new part with flag, after decrypting:
 //McKittrick leaderboard dot acnr dot se flag 09EbeMmIxhZetcAtMlghY9Pq
+
+
