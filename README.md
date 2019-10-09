@@ -11,6 +11,7 @@ executing exploit.py script or solution.py script.
 The script have some additional libraries like: QR, webbrowser and maybe mechanize and requests(but for these
 two I'm not sure) so without it you will not execute this script. Another thing:
 you can use python below 3.x.x version.
+![Alt text](https://raw.githubusercontent.com/WolfMan12333/ACNR---Task-Quest1-reqruitment/master/mail/2.jpeg "Optional Title")
 https://raw.githubusercontent.com/WolfMan12333/ACNR---Task-Quest1-reqruitment/master/mail/2.jpeg
 
 
