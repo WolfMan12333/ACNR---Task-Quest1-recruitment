@@ -8,5 +8,9 @@ code, thanks to it we have last task. Login to the website without creds. First 
 can find in code of website and there's a password part admin'or'1'='1. You can check this by 
 executing exploit.py script or solution.py script.
 
+The script have some additional libraries like: QR, webbrowser and maybe mechanize and requests(but for these
+two I'm not sure) so without it you will not execute this script. Another thing:
+you can use python below 3.x.x version.
+
 Today with first part of challenge you have new part with flag, after decrypting:
 //McKittrick leaderboard dot acnr dot se flag 09EbeMmIxhZetcAtMlghY9Pq
