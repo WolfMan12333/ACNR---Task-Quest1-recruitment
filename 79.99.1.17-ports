@@ -1,0 +1,119 @@
+PORT      STATE SERVICE    REASON         VERSION
+554/tcp   open  tcpwrapped syn-ack ttl 63
+1025/tcp  open  tcpwrapped syn-ack ttl 53
+7070/tcp  open  tcpwrapped syn-ack ttl 63
+18851/tcp open  unknown    syn-ack ttl 53
+| fingerprint-strings: 
+|   NULL: 
+|     IHDR
+|     9IDATx
+|     7+SSSOS
+|     u]P/
+|     KMMM}
+|     5<8d
+|     QSSS?v
+|     `@O{
+|     NMM}
+|     j3JMM=N
+|     copF
+|     $u`H7
+|     OVWg
+|     LMM=N}
+|     nFwJ
+|     8_SSS
+|     OMMM
+|     RSSS
+|     SSSS
+|     QSSSSSSSSSSSSSSSSS
+|_    IEND
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port18851-TCP:V=7.70%I=7%D=8/7%Time=5D4AF2C5%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,372,"\x89PNG\r\n\x1a\n\0\0\0\rIHDR\0\0\0\xf5\0\0\0\xf5\x08\0\0\0\0\x
+SF:ad\xda\xec\xb9\0\0\x039IDATx\xda\xed\xdbAr\xdb0\x10\x04@\xfd\xff\xd3\xc
+SF:9\xdd\x15B3\x04\xa3\xb2\xb0\xad\x93K\xb6@6\x0f\+`g\xfd\xfa3\xf1\xf5\xa2
+SF:\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xa6\xe
+SF:e\xd5\xaf\xf7\xaf\x1f\x7f\|\xb9\xc0z\xe5\xf5{\xffZ~\xfd\xd9\xf5\x9dRSS\
+SF:xcfT_\x17\xc0\xcb\xb5\x96\xa4KM\xb5\^\xfa\xd97\+SSSOS\x07\xf5u\]P/\xeb\
+SF:xf0\x9b-c\xed\n\xaeKMMM}\xbf\x0e\xaf\xd7\x0b\xee2\xfd\x04555\xf5\x135<8
+SF:d\x07\?U\xebQSSS\?v\xbe\^\xdf`@O{\x7f\xeb\n\xff\xe1\xae\x0255\xf5\x97\x
+SF:a9\x83D\xe1\x97\xfc\xf4\xe1\xc4\x87\x9a\x9a\xfa{\xd4\xf1x\xc7\xfb\xb0#H
+SF:7\xfa\xab\xfd\x9f\xb9\x14jj\xea\xf3\xd4\xe9\x1e\xb1J\^o\xb6\x16\xab}m\x
+SF:fa`\xa8\xa9\xa9\x87\xa8\xd3\xea\x9bf\x15A\?0\xcd~/\?\xd6M\xbcPSS\x0fR\x
+SF:a7c\xbb\xe9C\xa8R\xe0~\xb6\xae\x9a}\xa1\xa6\xa6\x1e\xa2N\xcf\xcd\xc1f\x
+SF:b4\xea\xee\xa5\xeb\xf5_9\xd4\xd4\xd43\xd5\xc1\xa6\xb0\x1f~K\xf7\xb5\xd5
+SF:\xf9\xba\xba\x1a55\xf58u\xda\xa6\x0b\xce\xcd\xc1wB\xd5\xfb\[\xff\xe2\xf
+SF:1\xec\x83\x9a\x9a\xfa\xbb\xd5i\x91\xbd\x19\xb5\xf6\xf7\x9b>\x9d\xfd\x1d
+SF:\)55\xf5Q\xea\xea\xce\xab\xa1\x93\xa0@W\xbd\xc4\x20i\xa1\xa6\xa6\x1e\xa
+SF:cN\x0f\xd4\xeb\xbfK\x7f\x9b\xc6\(U6\xf3P\x92KMM\xfd\xdd\xea\x20\)\r\xda
+SF:t7\x07Q\xfa\.e\xf0x\xa9\xa9\xa9\x07\xab\xabq\x91~{X\xb5\x16\xd3S\xfaC\x
+SF:f9555\xf5\)\xea\*L\xe8\xa7\x82\xd3=\xecv\xcfqk\x1fNMM}\x80\xba\xdaK\xae
+SF:\xc3\x89\x9bw\^=\x9dj3JMM=N\x1d\xec\x1b\x03\xf0\xd3\x83x\xe9\*\[\]\x05j
+SF:j\xeaS\xd4A\xb6\x9a\x9e\xbeSWz\x90\xaf\xda\x017\xce\xd7\xd4\xd4\xd4\xe7
+SF:\xa9\xd3copF\xee\xf3\x8bj#\[\xdd\.55\xf5\$u`H7\x8a\xc1\xb17\x8dd\xab\x8
+SF:7\xba\xd5-\xa4\xa6\xa6>E\]\xe5\x1ci\x9b\xaeoA\xa6\xdf\x13\xfd\xd7\x0155
+SF:\xf58\xf5\xf6\xff\x1f\xf4\xed\xbc\xb4\xbf\xd8g\xce\xd4\xd4\xd4\xd3\xd5A
+SF:\xf6\xd17\x14\xd7\xfd\xc0`s\x1b\\r\+\xfb\xa0\xa6\xa6>@\xfd\xcc@H\xd52\x
+SF:0cH\xeb/\x95\*\x05\xa1\xa6\xa6\x1e\xacN\xaf\x19\x14\xde`\xc3\xdb\xf7\r\
+SF:x1f\xca>\xa8\xa9\xa9OVWg\xdf\x20\xf6M\xeb\x7f\xfa\?\x0e}\x1eLMM=N}\xf9\
+SF:^:\x1a\\e\)\xbd\xe6\xe6\xe4\x1d55\xf58u\x9as\xa4\xb7\x90\xae\x9c\xa6\*\
+SF:xe9\xc7\xa8\xa9\xa9g\xaa\xab1\x95\*\xc9\xa8Z\|\xd5\xecKW\xe1\xa9\xa9\xa
+SF:9g\xa8\xfb\xca\x98nFwJ\x7f\x9f\xc3\xdc8_SSS\x9f\xa7N\xef<\xe8\x1b\xf6\x
+SF:ef\xf5\xb3\xc5\x0f\xd5pjj\xeaC\xd5\xfd\x81:\x1d\+\xd9NP\xaa\nOMMM\x9d\x
+SF:cd\x82\xa4U\x7f\x9d\xa5T\xa9J\x15\xddRSSS\x17\xea\xaa\x96\x06{\xce\x9d\
+SF:x8bSSSS\x17\xe7\xeb\xcb\x9a\x9bV\xe9j\xe8\$MZ\x12\x0255\xf5\x20u5\$\x12
+SF:\\8\x1d\x88\xebG\xf7\x9e\xac\xe1\xd4\xd4\xd4G\xa9\x8f\x7fQSSSSSSSSSSSSS
+SF:SSSS\xaf_\x7f\x01\x82i\x01J\xb2A\xfd\xdf\0\0\0\0IEND\xaeB`\x82");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: WAP
+Running: Linux 2.4.X|2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6.22
+OS details: Tomato 1.28 (Linux 2.4.20), Tomato firmware (Linux 2.6.22)
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=8/7%OT=18851%CT=%CU=43820%PV=N%DS=17%DC=T%G=N%TM=5D4AF
+OS:2D8%P=x86_64-pc-linux-gnu)SEQ(II=I)ECN(R=N)T1(R=N)T2(R=N)T3(R=N)T4(R=N)U
+OS:1(R=Y%DF=N%T=45%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=45%CD=S)
+
+Network Distance: 17 hops
+
+TRACEROUTE (using port 1025/tcp)
+HOP RTT       ADDRESS
+1   7.19 ms   10.0.0.1
+2   10.05 ms  192.168.1.254
+3   26.71 ms  83.238.252.35
+4   21.88 ms  83.238.249.252
+5   25.80 ms  jawoh001rt09.inetia.pl (83.238.248.110)
+6   37.45 ms  lag-108.bear1.Prague1.Level3.net (212.162.8.173)
+7   ...
+8   66.35 ms  fra4-core-1.bundle-ether15.tele2.net (130.244.200.140)
+9   61.73 ms  fra36-core-1.bundle-ether8.tele2.net (130.244.39.206)
+10  89.58 ms  lim-core-1.bundle-ether6.tele2.net (130.244.205.5)
+11  92.32 ms  sdn-core-2.bundle-ether13.tele2.net (130.244.86.38)
+12  96.84 ms  fbg3-pe-1.tengige0-1-0-0.tele2.net (130.244.39.117)
+13  100.82 ms tele2-fbg.glesys.se (62.181.86.212)
+14  98.07 ms  te-0-1-0-6.vbdc-cr4.glesys.net (46.21.96.131)
+15  98.97 ms  te-2-1.vbdc-pe1.glesys.net (193.108.196.59)
+16  96.02 ms  91-228-193-34-static.glesys.net (91.228.193.34)
+17  93.66 ms  79-99-1-17-static.glesys.net (79.99.1.17)
+____________________________________________________________________________________________________________________________
+PORT     STATE SERVICE    VERSION
+554/tcp  open  tcpwrapped
+1025/tcp open  tcpwrapped
+7070/tcp open  tcpwrapped
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Tomato 1.27 - 1.28 (Linux 2.4.20) (93%), Linux 2.6.18 - 2.6.22 (92%), MikroTik RouterOS 6.15 (Linux 3.3.5) (91%), Linux 2.6.17 - 2.6.28 (90%), Linux 2.6.22 (89%), Linux 2.6.18 (89%), AVM FRITZ!Box FON WLAN 7170 WAP (88%), Dell Remote Access Controller 5/I (DRAC 5/I) (88%), Extreme Networks ExtremeXOS 12.5.4 (88%), Google Mini search appliance (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 17 hops
+_____________________________________________________________________________________________________________________________
+PORT     STATE SERVICE
+554/tcp  open  rtsp
+1025/tcp open  NFS-or-IIS
+7070/tcp open  realserver
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: WAP|general purpose|router|switch|specialized|media device
+Running (JUST GUESSING): Linux 2.4.X|2.6.X (93%), MikroTik RouterOS 6.X (91%), AVM embedded (88%), Extreme Networks ExtremeXOS 12.X|15.X (88%), Google embedded (88%), HP embedded (88%), Philips embedded (88%)
+OS CPE: cpe:/o:linux:linux_kernel:2.4.20 cpe:/o:linux:linux_kernel:2.6 cpe:/o:mikrotik:routeros:6.15 cpe:/h:avm:fritz%21box_fon_wlan_7170 cpe:/o:extremenetworks:extremexos:12.5.4 cpe:/o:extremenetworks:extremexos:15.3
+Aggressive OS guesses: Tomato 1.27 - 1.28 (Linux 2.4.20) (93%), Linux 2.6.18 - 2.6.22 (92%), MikroTik RouterOS 6.15 (Linux 3.3.5) (91%), Linux 2.6.17 - 2.6.28 (90%), Linux 2.6.22 (89%), Linux 2.6.18 (89%), AVM FRITZ!Box FON WLAN 7170 WAP (88%), Extreme Networks ExtremeXOS 12.5.4 (88%), Extreme Networks ExtremeXOS 15.3 (88%), Google Mini search appliance (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 17 hops
+

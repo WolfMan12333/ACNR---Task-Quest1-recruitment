@@ -1,0 +1,7 @@
+1-Level: As the beginning of this task we should try use Google Search Engine because it's very big library of the knowledge and Google can help us to decrypt message.
+2-Level: Now we are finding the part with base64, here you can use something in web or copy it and paste to the Google Search Engine and get the answer or you can use this command in linux terminal:
+echo NzkuOTkuMS4xNw== | base64 --decode
+3-Level:Now we have an IP address after decoding our base64. The first what we should do is scanning trying to search open ports. We use nmap tool for it: nmap -p- 79.99.1.17 --reason, thanks to REASON we have TTL value and we know that some services are false positive. So we trying to use only this which is different than: 554/tcp, 1025/tcp and 7070/tcp.
+4-Level:nc 79.99.1.17 <port> > file, we are checking first line of file and set second file with an exact type. This case PNG by using: cat file > file.png.
+5-Level:Scanning qrcode, opening founded website and trying find some information in source code (login: admin) and trying some sql injection. The exact solution is written in python3:
+python3 exploit.py

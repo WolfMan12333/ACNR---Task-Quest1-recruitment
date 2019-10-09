@@ -1,0 +1,37 @@
+1.Copy the encrypted message and paste to google search engine. Thanks the google which is really big library of the knowledge we can find that the message was encrypted by rot13. The website which I use: https://rot13.com/. And the solution:
+Your mission is to gain access to the Safe Center portal.
+
+Search for the golden port which will give you a map to the right location.
+
+Your journey starts here: NzkuOTkuMS4xNw==
+
+//McKittrick
+
+2.Now in part "Your journey start here: NzkuOTkuMS4xNw==" we can try guess that is base64 mainly thanks those '=' in the end of string. After decoding we have an IP address: 79.99.1.17.
+
+3.Scanning part. Using nmap with scanning for every port like: nmap -p- 79.99.1.17 we can find our magical port which is randomly generated every few minutes. After finding this port I used this command to connect to it: nc 79.99.1.17 <magical-port>. After that, thanks the connection to this magical port I get some data. When we look closer then we can find that those data are PNG type file. But second connection to it not working. So when we finish second scan we need to save those data to our file.png.
+We can do it by using this command:
+nc 79.99.1.17 <magical-port> > file.png.
+
+4.Now we can open our file and see what is there. After opening we see the QR-Code. We can read it by many different QR-Code readers in web or download and install on our smartphone for example this app:QR Droid. After the app will finish the scan of
+QR-Code we will get this website: http://109.74.4.174/login/820f65c4f73c205c/id/y0VQJXQ%2Bl8S8woa4q55E69ccTe12NAGYxcJHu%2F7jHJg%3D.
+We need to hurry because some part of the URL are randomly generated every second day(probably).
+
+5.Next and last part is focused on the website: WOPR Safe Center. After checking the source code of this website we can find CSRF token which is generated for every session as a protection before CSRF attack. From the other side we have there commented part
+which looks like this:
+<!-- <input type="text" id="user" name="username" value="admin" placeholder="username"> -->
+thanks to it we know that there is an user called "admin" and this is our username for our login form. Now what with password, we need to do some sql injection. So we can try to use Intruder in Burp Suite to automate the first part of checking that this site is vulnerable. After some combination we have a password:
+admin'or'1'='1
+
+So our credentials:
+User: admin
+Password: admin'or'1'='1
+
+After clicking Login button on website we are finish the task. Site with some firework, this text at the beginning: 
+"We're impressed
+
+Congratulations to getting this far. Down below you will find more information about what this is about and maybe even impress us more. "
+
+
+
+and with this form.
