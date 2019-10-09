@@ -15,6 +15,12 @@ you can use python below 3.x.x version.
 and last task screen:
 ![Alt text](https://raw.githubusercontent.com/WolfMan12333/ACNR---Task-Quest1-reqruitment/master/3.jpeg "Optional Title")
 
+And the newest printscreens from 09.10.2019:
+![Alt text](https://raw.githubusercontent.com/WolfMan12333/ACNR---Task-Quest1-reqruitment/master/newest-python-result.jpeg "Optional Title")
+![Alt text](https://raw.githubusercontent.com/WolfMan12333/ACNR---Task-Quest1-reqruitment/master/newest-python-result-in-browser.jpeg "Optional Title")
+![Alt text](https://raw.githubusercontent.com/WolfMan12333/ACNR---Task-Quest1-reqruitment/master/newest-python-result-in-browser2.jpeg "Optional Title")
+![Alt text](https://raw.githubusercontent.com/WolfMan12333/ACNR---Task-Quest1-reqruitment/master/newest-python-result-in-browser3.jpeg "Optional Title")
+
 Today with first part of challenge you have new part with flag, after decrypting:
 //McKittrick leaderboard dot acnr dot se flag 09EbeMmIxhZetcAtMlghY9Pq
 
