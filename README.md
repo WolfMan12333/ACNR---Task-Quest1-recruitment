@@ -1,5 +1,5 @@
 # ACNR---Task-Quest1-recruitment
-Before ACNR started challenge recruitment there were only one task which now is called 
+Before ACNR started challenge recruitment there was only one task which now is called 
 quest1 but before it was only this simple task without challenge. You have to decrypt 
 encrypted message and doing next stuff like, decode base64, next scanning IP and finding 
 magic port which is randomly generated every few minutes, next downloading with 
